@@ -1,0 +1,7 @@
+*.DS_Store
+._*
+xcuserdata/
+xcshareddata/
+build/
+Pods/
+crawlers/*.json
