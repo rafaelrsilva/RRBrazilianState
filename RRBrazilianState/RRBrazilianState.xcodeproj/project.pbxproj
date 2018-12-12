@@ -8,12 +8,68 @@
 
 /* Begin PBXBuildFile section */
 		9DEFC12E21C1B2B600120453 /* RRBrazilianState.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEFC12C21C1B2B600120453 /* RRBrazilianState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DEFC13521C1B7BE00120453 /* RRBrazilianState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC13421C1B7BE00120453 /* RRBrazilianState.swift */; };
+		9DEFC13721C1B7F300120453 /* RRBrazilianState+AC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC13621C1B7F300120453 /* RRBrazilianState+AC.swift */; };
+		9DEFC13921C1B92F00120453 /* RRBrazilianState+AL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC13821C1B92F00120453 /* RRBrazilianState+AL.swift */; };
+		9DEFC13B21C1B9F600120453 /* RRBrazilianState+AP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC13A21C1B9F600120453 /* RRBrazilianState+AP.swift */; };
+		9DEFC13D21C1B9FD00120453 /* RRBrazilianState+AM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC13C21C1B9FD00120453 /* RRBrazilianState+AM.swift */; };
+		9DEFC13F21C1BA0600120453 /* RRBrazilianState+BA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC13E21C1BA0600120453 /* RRBrazilianState+BA.swift */; };
+		9DEFC14121C1BA1100120453 /* RRBrazilianState+CE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC14021C1BA1100120453 /* RRBrazilianState+CE.swift */; };
+		9DEFC14321C1BA1700120453 /* RRBrazilianState+DF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC14221C1BA1700120453 /* RRBrazilianState+DF.swift */; };
+		9DEFC14521C1BA2000120453 /* RRBrazilianState+ES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC14421C1BA2000120453 /* RRBrazilianState+ES.swift */; };
+		9DEFC14721C1BA2600120453 /* RRBrazilianState+GO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC14621C1BA2600120453 /* RRBrazilianState+GO.swift */; };
+		9DEFC14921C1BA2C00120453 /* RRBrazilianState+MA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC14821C1BA2B00120453 /* RRBrazilianState+MA.swift */; };
+		9DEFC14B21C1BA3200120453 /* RRBrazilianState+MT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC14A21C1BA3200120453 /* RRBrazilianState+MT.swift */; };
+		9DEFC14D21C1BA3D00120453 /* RRBrazilianState+MS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC14C21C1BA3D00120453 /* RRBrazilianState+MS.swift */; };
+		9DEFC14F21C1BA4600120453 /* RRBrazilianState+MG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC14E21C1BA4600120453 /* RRBrazilianState+MG.swift */; };
+		9DEFC15121C1BA4C00120453 /* RRBrazilianState+PA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC15021C1BA4C00120453 /* RRBrazilianState+PA.swift */; };
+		9DEFC15321C1BA5300120453 /* RRBrazilianState+PB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC15221C1BA5300120453 /* RRBrazilianState+PB.swift */; };
+		9DEFC15521C1BA5A00120453 /* RRBrazilianState+PR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC15421C1BA5A00120453 /* RRBrazilianState+PR.swift */; };
+		9DEFC15721C1BA6500120453 /* RRBrazilianState+PE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC15621C1BA6500120453 /* RRBrazilianState+PE.swift */; };
+		9DEFC15921C1BA6A00120453 /* RRBrazilianState+PI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC15821C1BA6A00120453 /* RRBrazilianState+PI.swift */; };
+		9DEFC15B21C1BA7000120453 /* RRBrazilianState+RJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC15A21C1BA7000120453 /* RRBrazilianState+RJ.swift */; };
+		9DEFC15D21C1BA7700120453 /* RRBrazilianState+RN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC15C21C1BA7700120453 /* RRBrazilianState+RN.swift */; };
+		9DEFC15F21C1BA7D00120453 /* RRBrazilianState+RS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC15E21C1BA7D00120453 /* RRBrazilianState+RS.swift */; };
+		9DEFC16121C1BA8D00120453 /* RRBrazilianState+RO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC16021C1BA8D00120453 /* RRBrazilianState+RO.swift */; };
+		9DEFC16321C1BA9500120453 /* RRBrazilianState+RR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC16221C1BA9500120453 /* RRBrazilianState+RR.swift */; };
+		9DEFC16521C1BA9A00120453 /* RRBrazilianState+SC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC16421C1BA9A00120453 /* RRBrazilianState+SC.swift */; };
+		9DEFC16721C1BAA200120453 /* RRBrazilianState+SP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC16621C1BAA200120453 /* RRBrazilianState+SP.swift */; };
+		9DEFC16921C1BAA900120453 /* RRBrazilianState+SE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC16821C1BAA900120453 /* RRBrazilianState+SE.swift */; };
+		9DEFC16B21C1BAAE00120453 /* RRBrazilianState+TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEFC16A21C1BAAE00120453 /* RRBrazilianState+TO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9DEFC12921C1B2B600120453 /* RRBrazilianState.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RRBrazilianState.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DEFC12C21C1B2B600120453 /* RRBrazilianState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRBrazilianState.h; sourceTree = "<group>"; };
 		9DEFC12D21C1B2B600120453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DEFC13421C1B7BE00120453 /* RRBrazilianState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RRBrazilianState.swift; sourceTree = "<group>"; };
+		9DEFC13621C1B7F300120453 /* RRBrazilianState+AC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+AC.swift"; sourceTree = "<group>"; };
+		9DEFC13821C1B92F00120453 /* RRBrazilianState+AL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+AL.swift"; sourceTree = "<group>"; };
+		9DEFC13A21C1B9F600120453 /* RRBrazilianState+AP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+AP.swift"; sourceTree = "<group>"; };
+		9DEFC13C21C1B9FD00120453 /* RRBrazilianState+AM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+AM.swift"; sourceTree = "<group>"; };
+		9DEFC13E21C1BA0600120453 /* RRBrazilianState+BA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+BA.swift"; sourceTree = "<group>"; };
+		9DEFC14021C1BA1100120453 /* RRBrazilianState+CE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+CE.swift"; sourceTree = "<group>"; };
+		9DEFC14221C1BA1700120453 /* RRBrazilianState+DF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+DF.swift"; sourceTree = "<group>"; };
+		9DEFC14421C1BA2000120453 /* RRBrazilianState+ES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+ES.swift"; sourceTree = "<group>"; };
+		9DEFC14621C1BA2600120453 /* RRBrazilianState+GO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+GO.swift"; sourceTree = "<group>"; };
+		9DEFC14821C1BA2B00120453 /* RRBrazilianState+MA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+MA.swift"; sourceTree = "<group>"; };
+		9DEFC14A21C1BA3200120453 /* RRBrazilianState+MT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+MT.swift"; sourceTree = "<group>"; };
+		9DEFC14C21C1BA3D00120453 /* RRBrazilianState+MS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+MS.swift"; sourceTree = "<group>"; };
+		9DEFC14E21C1BA4600120453 /* RRBrazilianState+MG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+MG.swift"; sourceTree = "<group>"; };
+		9DEFC15021C1BA4C00120453 /* RRBrazilianState+PA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+PA.swift"; sourceTree = "<group>"; };
+		9DEFC15221C1BA5300120453 /* RRBrazilianState+PB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+PB.swift"; sourceTree = "<group>"; };
+		9DEFC15421C1BA5A00120453 /* RRBrazilianState+PR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+PR.swift"; sourceTree = "<group>"; };
+		9DEFC15621C1BA6500120453 /* RRBrazilianState+PE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+PE.swift"; sourceTree = "<group>"; };
+		9DEFC15821C1BA6A00120453 /* RRBrazilianState+PI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+PI.swift"; sourceTree = "<group>"; };
+		9DEFC15A21C1BA7000120453 /* RRBrazilianState+RJ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+RJ.swift"; sourceTree = "<group>"; };
+		9DEFC15C21C1BA7700120453 /* RRBrazilianState+RN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+RN.swift"; sourceTree = "<group>"; };
+		9DEFC15E21C1BA7D00120453 /* RRBrazilianState+RS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+RS.swift"; sourceTree = "<group>"; };
+		9DEFC16021C1BA8D00120453 /* RRBrazilianState+RO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+RO.swift"; sourceTree = "<group>"; };
+		9DEFC16221C1BA9500120453 /* RRBrazilianState+RR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+RR.swift"; sourceTree = "<group>"; };
+		9DEFC16421C1BA9A00120453 /* RRBrazilianState+SC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+SC.swift"; sourceTree = "<group>"; };
+		9DEFC16621C1BAA200120453 /* RRBrazilianState+SP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+SP.swift"; sourceTree = "<group>"; };
+		9DEFC16821C1BAA900120453 /* RRBrazilianState+SE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+SE.swift"; sourceTree = "<group>"; };
+		9DEFC16A21C1BAAE00120453 /* RRBrazilianState+TO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RRBrazilianState+TO.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +104,34 @@
 			children = (
 				9DEFC12C21C1B2B600120453 /* RRBrazilianState.h */,
 				9DEFC12D21C1B2B600120453 /* Info.plist */,
+				9DEFC13421C1B7BE00120453 /* RRBrazilianState.swift */,
+				9DEFC13621C1B7F300120453 /* RRBrazilianState+AC.swift */,
+				9DEFC13821C1B92F00120453 /* RRBrazilianState+AL.swift */,
+				9DEFC13A21C1B9F600120453 /* RRBrazilianState+AP.swift */,
+				9DEFC13C21C1B9FD00120453 /* RRBrazilianState+AM.swift */,
+				9DEFC13E21C1BA0600120453 /* RRBrazilianState+BA.swift */,
+				9DEFC14021C1BA1100120453 /* RRBrazilianState+CE.swift */,
+				9DEFC14221C1BA1700120453 /* RRBrazilianState+DF.swift */,
+				9DEFC14421C1BA2000120453 /* RRBrazilianState+ES.swift */,
+				9DEFC14621C1BA2600120453 /* RRBrazilianState+GO.swift */,
+				9DEFC14821C1BA2B00120453 /* RRBrazilianState+MA.swift */,
+				9DEFC14A21C1BA3200120453 /* RRBrazilianState+MT.swift */,
+				9DEFC14C21C1BA3D00120453 /* RRBrazilianState+MS.swift */,
+				9DEFC14E21C1BA4600120453 /* RRBrazilianState+MG.swift */,
+				9DEFC15021C1BA4C00120453 /* RRBrazilianState+PA.swift */,
+				9DEFC15221C1BA5300120453 /* RRBrazilianState+PB.swift */,
+				9DEFC15421C1BA5A00120453 /* RRBrazilianState+PR.swift */,
+				9DEFC15621C1BA6500120453 /* RRBrazilianState+PE.swift */,
+				9DEFC15821C1BA6A00120453 /* RRBrazilianState+PI.swift */,
+				9DEFC15A21C1BA7000120453 /* RRBrazilianState+RJ.swift */,
+				9DEFC15C21C1BA7700120453 /* RRBrazilianState+RN.swift */,
+				9DEFC15E21C1BA7D00120453 /* RRBrazilianState+RS.swift */,
+				9DEFC16021C1BA8D00120453 /* RRBrazilianState+RO.swift */,
+				9DEFC16221C1BA9500120453 /* RRBrazilianState+RR.swift */,
+				9DEFC16421C1BA9A00120453 /* RRBrazilianState+SC.swift */,
+				9DEFC16621C1BAA200120453 /* RRBrazilianState+SP.swift */,
+				9DEFC16821C1BAA900120453 /* RRBrazilianState+SE.swift */,
+				9DEFC16A21C1BAAE00120453 /* RRBrazilianState+TO.swift */,
 			);
 			path = RRBrazilianState;
 			sourceTree = "<group>";
@@ -95,6 +179,7 @@
 				TargetAttributes = {
 					9DEFC12821C1B2B600120453 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -130,6 +215,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DEFC14921C1BA2C00120453 /* RRBrazilianState+MA.swift in Sources */,
+				9DEFC14B21C1BA3200120453 /* RRBrazilianState+MT.swift in Sources */,
+				9DEFC15321C1BA5300120453 /* RRBrazilianState+PB.swift in Sources */,
+				9DEFC14F21C1BA4600120453 /* RRBrazilianState+MG.swift in Sources */,
+				9DEFC13D21C1B9FD00120453 /* RRBrazilianState+AM.swift in Sources */,
+				9DEFC15521C1BA5A00120453 /* RRBrazilianState+PR.swift in Sources */,
+				9DEFC13921C1B92F00120453 /* RRBrazilianState+AL.swift in Sources */,
+				9DEFC16921C1BAA900120453 /* RRBrazilianState+SE.swift in Sources */,
+				9DEFC14321C1BA1700120453 /* RRBrazilianState+DF.swift in Sources */,
+				9DEFC14121C1BA1100120453 /* RRBrazilianState+CE.swift in Sources */,
+				9DEFC15F21C1BA7D00120453 /* RRBrazilianState+RS.swift in Sources */,
+				9DEFC16121C1BA8D00120453 /* RRBrazilianState+RO.swift in Sources */,
+				9DEFC13B21C1B9F600120453 /* RRBrazilianState+AP.swift in Sources */,
+				9DEFC16321C1BA9500120453 /* RRBrazilianState+RR.swift in Sources */,
+				9DEFC13F21C1BA0600120453 /* RRBrazilianState+BA.swift in Sources */,
+				9DEFC15921C1BA6A00120453 /* RRBrazilianState+PI.swift in Sources */,
+				9DEFC15721C1BA6500120453 /* RRBrazilianState+PE.swift in Sources */,
+				9DEFC14521C1BA2000120453 /* RRBrazilianState+ES.swift in Sources */,
+				9DEFC16721C1BAA200120453 /* RRBrazilianState+SP.swift in Sources */,
+				9DEFC16B21C1BAAE00120453 /* RRBrazilianState+TO.swift in Sources */,
+				9DEFC13721C1B7F300120453 /* RRBrazilianState+AC.swift in Sources */,
+				9DEFC14721C1BA2600120453 /* RRBrazilianState+GO.swift in Sources */,
+				9DEFC15B21C1BA7000120453 /* RRBrazilianState+RJ.swift in Sources */,
+				9DEFC14D21C1BA3D00120453 /* RRBrazilianState+MS.swift in Sources */,
+				9DEFC15121C1BA4C00120453 /* RRBrazilianState+PA.swift in Sources */,
+				9DEFC13521C1B7BE00120453 /* RRBrazilianState.swift in Sources */,
+				9DEFC15D21C1BA7700120453 /* RRBrazilianState+RN.swift in Sources */,
+				9DEFC16521C1BA9A00120453 /* RRBrazilianState+SC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +374,7 @@
 		9DEFC13221C1B2B600120453 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -277,6 +391,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelrsilva.RRBrazilianState;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +400,7 @@
 		9DEFC13321C1B2B600120453 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
