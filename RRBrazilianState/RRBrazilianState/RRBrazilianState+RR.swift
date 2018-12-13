@@ -11,6 +11,22 @@ import Foundation
 extension RRBrazilianState {
     
     var roraimaCities: [String] {
-        return []
+        return [
+            "Boa Vista",
+            "Alto Alegre",
+            "Amajari",
+            "Bonfim",
+            "Cantá",
+            "Caracaraí",
+            "Caroebe",
+            "Iracema",
+            "Mucajaí",
+            "Normandia",
+            "Pacaraima",
+            "Rorainópolis",
+            "São João da Baliza",
+            "São Luiz",
+            "Uiramutã"
+        ]
     }
 }
