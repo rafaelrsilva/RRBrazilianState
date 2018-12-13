@@ -39,30 +39,33 @@ public enum RRBrazilianState: String {
     case sergipe = "SE"
     case tocantins = "TO"
     
-    public var title: String {
+    /**
+     Name of the state
+     */
+    public var name: String {
         switch self {
             case .acre: return "Acre"
             case .alagoas: return "Alagoas"
             case .amapa: return "Amapá"
             case .amazonas: return "Amazonas"
             case .bahia: return "Bahia"
-            case .ceara: return "Ceara"
+            case .ceara: return "Ceará"
             case .distritoFederal: return "Distrito Federal"
-            case .espiritoSanto: return "Espirito Santo"
-            case .goias: return "Goias"
-            case .maranhao: return "Maranhao"
+            case .espiritoSanto: return "Espírito Santo"
+            case .goias: return "Goiás"
+            case .maranhao: return "Maranhão"
             case .matoGrosso: return "Mato Grosso"
             case .matoGrossoDoSul: return "Mato Grosso do Sul"
             case .minasGerais: return "Minas Gerais"
             case .para: return "Pará"
-            case .paraiba: return "Paraiba"
+            case .paraiba: return "Paraíba"
             case .parana: return "Paraná"
             case .pernambuco: return "Pernambuco"
             case .piaui: return "Piauí"
             case .rioDeJaneiro: return "Rio de Janeiro"
             case .rioGrandeDoNorte: return "Rio Grande do Norte"
             case .rioGrandeDoSul: return "Rio Grande do Sul"
-            case .rondonia: return "Rondonia"
+            case .rondonia: return "Rondônia"
             case .roraima: return "Roraima"
             case .santaCatarina: return "Santa Catarina"
             case .saoPaulo: return "São Paulo"
@@ -71,6 +74,11 @@ public enum RRBrazilianState: String {
         }
     }
     
+    /**
+     Array containing all cities of the state
+     
+     Cities are ordered alphabetically but the first position is always reserved for the **capital**
+     */
     public var cities: [String] {
         switch self {
             case .acre: return Class.acreCities

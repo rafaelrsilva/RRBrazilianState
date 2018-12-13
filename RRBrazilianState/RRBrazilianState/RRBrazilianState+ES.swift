@@ -13,8 +13,8 @@ extension RRBrazilianState {
     static let espiritoSantoCities = [
         "Vitória",
         "Afonso Cláudio",
-        "Águia Branca",
         "Água Doce do Norte",
+        "Águia Branca",
         "Alegre",
         "Alfredo Chaves",
         "Alto Rio Novo",
