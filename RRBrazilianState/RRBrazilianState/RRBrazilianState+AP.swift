@@ -10,7 +10,22 @@ import Foundation
 
 extension RRBrazilianState {
     
-    var amapaCities: [String] {
-        return []
-    }
+    static let amapaCities = [
+        "Macapá",
+        "Amapá",
+        "Calçoene",
+        "Cutias",
+        "Ferreira Gomes",
+        "Itaubal",
+        "Laranjal do Jari",
+        "Mazagão",
+        "Oiapoque",
+        "Pedra Branca do Amaparí",
+        "Porto Grande",
+        "Pracuúba",
+        "Santana",
+        "Serra do Navio",
+        "Tartarugalzinho",
+        "Vitória do Jari"
+    ]
 }
