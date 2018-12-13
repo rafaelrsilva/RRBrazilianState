@@ -40,6 +40,36 @@ public enum RRBrazilianState: String {
     case tocantins = "TO"
     
     /**
+     Creates a new state instance with the specified abbreviation
+     
+     - Parameter abbreviation: State abbreviation formed from 2 letters
+     
+     The abbreviation may be both **uppercased** and **lowercased**, but **must be valid**
+     
+         print(RRBrazilianState(abbreviation: "sp"))
+         // Prints "Optional(RRBrazilianState.RRBrazilianState.saoPaulo)"
+     
+         print(RRBrazilianState(abbreviation: "rN"))
+         // Prints "Optional(RRBrazilianState.RRBrazilianState.rioGrandeDoNorte)"
+     
+         print(RRBrazilianState(abbreviation: "Pi"))
+         // Prints "Optional(RRBrazilianState.RRBrazilianState.piaui)"
+     
+         print(RRBrazilianState(abbreviation: "XY"))
+         // Prints "nil"
+     
+         print(RRBrazilianState(abbreviation: "SP") == RRBrazilianState.saoPaulo)
+         // Prints "true"
+     */
+    public init?(abbreviation: String) {
+        guard let state = Class(rawValue: abbreviation.uppercased()) else {
+            return nil
+        }
+        
+        self = state
+    }
+    
+    /**
      Name of the state
      */
     public var name: String {
