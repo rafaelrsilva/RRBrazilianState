@@ -10,9 +10,7 @@ import Foundation
 
 extension RRBrazilianState {
     
-    var distritoFederalCities: [String] {
-        return [
-            "Brasília"
-        ]
-    }
+    static let distritoFederalCities = [
+        "Brasília"
+    ]
 }

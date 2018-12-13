@@ -9,6 +9,8 @@
 import Foundation
 
 public enum RRBrazilianState: String {
+    private typealias Class = RRBrazilianState
+    
     case acre = "AC"
     case alagoas = "AL"
     case amapa = "AP"
@@ -71,33 +73,33 @@ public enum RRBrazilianState: String {
     
     public var cities: [String] {
         switch self {
-            case .acre: return acreCities
-            case .alagoas: return alagoasCities
-            case .amapa: return amapaCities
-            case .amazonas: return amazonasCities
-            case .bahia: return bahiaCities
-            case .ceara: return cearaCities
-            case .distritoFederal: return distritoFederalCities
-            case .espiritoSanto: return espiritoSantoCities
-            case .goias: return goiasCities
-            case .maranhao: return maranhaoCities
-            case .matoGrosso: return matoGrossoCities
-            case .matoGrossoDoSul: return matoGrossoDoSulCities
-            case .minasGerais: return minasGeraisCities
-            case .para: return paraCities
-            case .paraiba: return paraibaCities
-            case .parana: return paranaCities
-            case .pernambuco: return pernambucoCities
-            case .piaui: return piauiCities
-            case .rioDeJaneiro: return rioDeJaneiroCities
-            case .rioGrandeDoNorte: return rioGrandeDoNorteCities
-            case .rioGrandeDoSul: return rioGrandeDoSulCities
-            case .rondonia: return rondoniaCities
-            case .roraima: return roraimaCities
-            case .santaCatarina: return santaCatarinaCities
-            case .saoPaulo: return saoPauloCities
-            case .sergipe: return sergipeCities
-            case .tocantins: return tocantinsCities
+            case .acre: return Class.acreCities
+            case .alagoas: return Class.alagoasCities
+            case .amapa: return Class.amapaCities
+            case .amazonas: return Class.amazonasCities
+            case .bahia: return Class.bahiaCities
+            case .ceara: return Class.cearaCities
+            case .distritoFederal: return Class.distritoFederalCities
+            case .espiritoSanto: return Class.espiritoSantoCities
+            case .goias: return Class.goiasCities
+            case .maranhao: return Class.maranhaoCities
+            case .matoGrosso: return Class.matoGrossoCities
+            case .matoGrossoDoSul: return Class.matoGrossoDoSulCities
+            case .minasGerais: return Class.minasGeraisCities
+            case .para: return Class.paraCities
+            case .paraiba: return Class.paraibaCities
+            case .parana: return Class.paranaCities
+            case .pernambuco: return Class.pernambucoCities
+            case .piaui: return Class.piauiCities
+            case .rioDeJaneiro: return Class.rioDeJaneiroCities
+            case .rioGrandeDoNorte: return Class.rioGrandeDoNorteCities
+            case .rioGrandeDoSul: return Class.rioGrandeDoSulCities
+            case .rondonia: return Class.rondoniaCities
+            case .roraima: return Class.roraimaCities
+            case .santaCatarina: return Class.santaCatarinaCities
+            case .saoPaulo: return Class.saoPauloCities
+            case .sergipe: return Class.sergipeCities
+            case .tocantins: return Class.tocantinsCities
         }
     }
 }
