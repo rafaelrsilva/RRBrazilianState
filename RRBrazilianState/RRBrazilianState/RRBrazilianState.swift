@@ -39,7 +39,10 @@ public enum RRBrazilianState: String {
     case sergipe = "SE"
     case tocantins = "TO"
     
-    public var title: String {
+    /**
+     Name of the state
+     */
+    public var name: String {
         switch self {
             case .acre: return "Acre"
             case .alagoas: return "Alagoas"
@@ -71,6 +74,11 @@ public enum RRBrazilianState: String {
         }
     }
     
+    /**
+     Array containing all cities of the state
+     
+     Cities are ordered alphabetically but the first position is always reserved for the **capital**
+     */
     public var cities: [String] {
         switch self {
             case .acre: return Class.acreCities
